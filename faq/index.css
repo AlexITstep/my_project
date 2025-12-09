@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "Zalando Sans", sans-serif;
+    font-weight: 500;
+}
+
+.small-title {
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu-btn {
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border-radius: 22px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.call-button {
+    padding: 12px 25px;
+    border-radius: 22px;
+    border: 1px solid black;
+    background: #f0ff78;
+    cursor: pointer;
+    font-size: 16px;
+    width: fit-content;
+}
+
+.call-button:hover {
+    background: #000000;
+    color: #f0ff78;
+
+
+}
+
+.faq {
+    padding: 40px;
+    background: #f1ff85;
+    font-family: sans-serif;
+}
+
+.faq h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.faq-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 60px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.faq-row:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+header {
+    position: fixed;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+    right: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.faq-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    line-height: 32px;
+}
+
+.faq-text {
+    font-size: 18px;
+    color: #000;
+    line-height: 30px;
+    max-width: 720px;
+}
+
+footer {
+    min-height: 50vh;
+    width: 100%;
+    background-color: #FCFFD7;
+  
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 320px;
+  }
+  
+  .site-title {
+    font-size: 34px;
+    font-weight: 800;
+    margin: 0 0 8px 0;
+    color: #111;
+    letter-spacing: -0.6px;
+  }
+  
+  .contact {
+    margin-top: 18px;
+    line-height: 1.9;
+    color: #1b1b1b;
+    font-size: 14px;
+  }
+  
+  .contact a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .left-bottom {
+    font-size: 14px;
+    color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  
+  .divider {
+    width: 1px;
+  
+  }
+  
+  .top-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px 70px;
+    height: 80px;
+  
+    color: #111;
+  
+  }
+  
+  .top-div h1 {
+    font-size: 25px;
+  }
+  
+  .info-div {
+    width: 35% !important;
+    border: solid #555;
+    height: 40vh;
+  
+  }
+  
+  .perent-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+  }
+  
+  .perent-div>div {
+    width: 50%;
+  }
+  
+  .small-title {
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  header {
+    position: fixed;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+    right: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .registration-div {
+    border: solid #555;
+    border-left: none;
+    width: 100%;
+    min-height: 40vh;
+  
+  }
+  
+  .footer-right {
+    align-items: center;
+    display: flex;
+    min-width: 50%;
+    min-height: 320px;
+    margin-left: 50px;
+    margin-top: 5px;
+  }
+  
+  .subscribe-card {
+    width: 57%;
+    max-width: 640px;
+  
+    background: transparent;
+  }
+  
+  .form-row {
+    margin-bottom: 26px;
+  }
+  
+  label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #0f0f0f;
+  }
+  
+  .input-pill {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid rgba(20, 20, 20, 0.5);
+    padding: 0 22px;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+  }
+  
+  .menu-btn {
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border-radius: 22px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .call-button {
+    padding: 12px 25px;
+    border-radius: 22px;
+    border: 1px solid black;
+    background: #f0ff78;
+    cursor: pointer;
+    font-size: 16px;
+    width: fit-content;
+  }
+  
+  .checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 6px 0 18px 0;
+    font-size: 15px;
+  }
+  
+  .checkbox-row input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--accent);
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid rgba(20, 20, 20, 0.6);
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 6px;
+  }
+  
+  .copyright {
+    margin-top: 34px;
+    font-size: 14px;
+    color: #222;
+    text-align: left;
+  }
+  
+  .copyright a {
+    color: #0b57a4;
+    text-decoration: underline;
+  }
+  
+  .bottom-div {
+    width: 100%;
+    height: 25px;
+  
+  }
+  
+  @media (max-width: 768px) {
+    .perent-div>div {
+      width: 100%;
+    }
+  }
